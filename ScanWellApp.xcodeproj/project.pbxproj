@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B34BB88E346F952AE005FED /* Pods_ScanWellApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F3B0F5B5A36FA1BED8ABCE /* Pods_ScanWellApp.framework */; };
+		53CD29689316C94621D2DAC2 /* Pods_ScanWellApp_ScanWellAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8277273895712328F8C5130 /* Pods_ScanWellApp_ScanWellAppUITests.framework */; };
+		E04E3EF1B6D23EAF85F0AAFD /* Pods_ScanWellAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE3C9D58CEE31B86F5C6B6 /* Pods_ScanWellAppTests.framework */; };
+		FA48D35C2757DBB80006BF91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48D35B2757DBB80006BF91 /* Constants.swift */; };
+		FA48D360275807810006BF91 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48D35F275807810006BF91 /* DatabaseHandler.swift */; };
+		FA92604427571D2500F33690 /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA92604327571D2500F33690 /* UserDetailsController.swift */; };
 		FA9AD41D2756FC3300365A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD41C2756FC3300365A6A /* AppDelegate.swift */; };
-		FA9AD41F2756FC3300365A6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD41E2756FC3300365A6A /* SceneDelegate.swift */; };
-		FA9AD4212756FC3300365A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD4202756FC3300365A6A /* ViewController.swift */; };
+		FA9AD4212756FC3300365A6A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD4202756FC3300365A6A /* MainViewController.swift */; };
 		FA9AD4242756FC3300365A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9AD4222756FC3300365A6A /* Main.storyboard */; };
 		FA9AD4272756FC3300365A6A /* ScanWellApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD4252756FC3300365A6A /* ScanWellApp.xcdatamodeld */; };
 		FA9AD4292756FC3500365A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9AD4282756FC3500365A6A /* Assets.xcassets */; };
@@ -17,6 +22,11 @@
 		FA9AD4372756FC3500365A6A /* ScanWellAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD4362756FC3500365A6A /* ScanWellAppTests.swift */; };
 		FA9AD4412756FC3500365A6A /* ScanWellAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD4402756FC3500365A6A /* ScanWellAppUITests.swift */; };
 		FA9AD4432756FC3500365A6A /* ScanWellAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD4422756FC3500365A6A /* ScanWellAppUITestsLaunchTests.swift */; };
+		FA9AD4552756FCBA00365A6A /* StackOverflowUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD4542756FCBA00365A6A /* StackOverflowUserCell.swift */; };
+		FA9AD4572756FCFC00365A6A /* StackOverflowUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9AD4562756FCFC00365A6A /* StackOverflowUserCell.xib */; };
+		FA9AD4602757017E00365A6A /* StackOverflowUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD45F2757017E00365A6A /* StackOverflowUserModel.swift */; };
+		FA9AD462275703D400365A6A /* BadgeCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD461275703D400365A6A /* BadgeCountModel.swift */; };
+		FA9AD464275704B300365A6A /* StackOverflowListUserResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD463275704B300365A6A /* StackOverflowListUserResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0574DA29FD725381B352CA88 /* Pods-ScanWellAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanWellAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ScanWellAppTests/Pods-ScanWellAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15D5B49E2D0A3CBFB0A786A3 /* Pods-ScanWellApp-ScanWellAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanWellApp-ScanWellAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScanWellApp-ScanWellAppUITests/Pods-ScanWellApp-ScanWellAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42EE3C9D58CEE31B86F5C6B6 /* Pods_ScanWellAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanWellAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FBFDC3B7BC83A76DDE2CE5 /* Pods-ScanWellApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanWellApp.debug.xcconfig"; path = "Target Support Files/Pods-ScanWellApp/Pods-ScanWellApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8E29A3394C6132DFAFF51CEB /* Pods-ScanWellApp-ScanWellAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanWellApp-ScanWellAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ScanWellApp-ScanWellAppUITests/Pods-ScanWellApp-ScanWellAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AEB524BCE6955BF947876075 /* Pods-ScanWellApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanWellApp.release.xcconfig"; path = "Target Support Files/Pods-ScanWellApp/Pods-ScanWellApp.release.xcconfig"; sourceTree = "<group>"; };
+		B8277273895712328F8C5130 /* Pods_ScanWellApp_ScanWellAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanWellApp_ScanWellAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED9D0C45EF3D9CA1D3C1EDF /* Pods-ScanWellAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanWellAppTests.release.xcconfig"; path = "Target Support Files/Pods-ScanWellAppTests/Pods-ScanWellAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6F3B0F5B5A36FA1BED8ABCE /* Pods_ScanWellApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScanWellApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA48D35B2757DBB80006BF91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA48D35F275807810006BF91 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		FA92604327571D2500F33690 /* UserDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsController.swift; sourceTree = "<group>"; };
 		FA9AD4192756FC3300365A6A /* ScanWellApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanWellApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9AD41C2756FC3300365A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA9AD41E2756FC3300365A6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA9AD4202756FC3300365A6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA9AD4202756FC3300365A6A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FA9AD4232756FC3300365A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA9AD4262756FC3300365A6A /* ScanWellApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScanWellApp.xcdatamodel; sourceTree = "<group>"; };
 		FA9AD4282756FC3500365A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +72,11 @@
 		FA9AD43C2756FC3500365A6A /* ScanWellAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanWellAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9AD4402756FC3500365A6A /* ScanWellAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanWellAppUITests.swift; sourceTree = "<group>"; };
 		FA9AD4422756FC3500365A6A /* ScanWellAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanWellAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA9AD4542756FCBA00365A6A /* StackOverflowUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowUserCell.swift; sourceTree = "<group>"; };
+		FA9AD4562756FCFC00365A6A /* StackOverflowUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackOverflowUserCell.xib; sourceTree = "<group>"; };
+		FA9AD45F2757017E00365A6A /* StackOverflowUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowUserModel.swift; sourceTree = "<group>"; };
+		FA9AD461275703D400365A6A /* BadgeCountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCountModel.swift; sourceTree = "<group>"; };
+		FA9AD463275704B300365A6A /* StackOverflowListUserResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowListUserResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B34BB88E346F952AE005FED /* Pods_ScanWellApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04E3EF1B6D23EAF85F0AAFD /* Pods_ScanWellAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CD29689316C94621D2DAC2 /* Pods_ScanWellApp_ScanWellAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C61265ABFFA74BD312F9C394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3B0F5B5A36FA1BED8ABCE /* Pods_ScanWellApp.framework */,
+				B8277273895712328F8C5130 /* Pods_ScanWellApp_ScanWellAppUITests.framework */,
+				42EE3C9D58CEE31B86F5C6B6 /* Pods_ScanWellAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D14DC24824E4FB0A3F4CAD87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88FBFDC3B7BC83A76DDE2CE5 /* Pods-ScanWellApp.debug.xcconfig */,
+				AEB524BCE6955BF947876075 /* Pods-ScanWellApp.release.xcconfig */,
+				15D5B49E2D0A3CBFB0A786A3 /* Pods-ScanWellApp-ScanWellAppUITests.debug.xcconfig */,
+				8E29A3394C6132DFAFF51CEB /* Pods-ScanWellApp-ScanWellAppUITests.release.xcconfig */,
+				0574DA29FD725381B352CA88 /* Pods-ScanWellAppTests.debug.xcconfig */,
+				BED9D0C45EF3D9CA1D3C1EDF /* Pods-ScanWellAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA9AD4102756FC3300365A6A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				FA9AD4352756FC3500365A6A /* ScanWellAppTests */,
 				FA9AD43F2756FC3500365A6A /* ScanWellAppUITests */,
 				FA9AD41A2756FC3300365A6A /* Products */,
+				D14DC24824E4FB0A3F4CAD87 /* Pods */,
+				C61265ABFFA74BD312F9C394 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +155,11 @@
 		FA9AD41B2756FC3300365A6A /* ScanWellApp */ = {
 			isa = PBXGroup;
 			children = (
+				FA9AD45E2757016D00365A6A /* Models */,
+				FA9AD4512756FC5400365A6A /* Views */,
+				FA9AD4502756FC4D00365A6A /* Controllers */,
+				FA9AD44F2756FC4500365A6A /* Utilities */,
 				FA9AD41C2756FC3300365A6A /* AppDelegate.swift */,
-				FA9AD41E2756FC3300365A6A /* SceneDelegate.swift */,
-				FA9AD4202756FC3300365A6A /* ViewController.swift */,
 				FA9AD4222756FC3300365A6A /* Main.storyboard */,
 				FA9AD4282756FC3500365A6A /* Assets.xcassets */,
 				FA9AD42A2756FC3500365A6A /* LaunchScreen.storyboard */,
@@ -130,6 +186,59 @@
 			path = ScanWellAppUITests;
 			sourceTree = "<group>";
 		};
+		FA9AD44F2756FC4500365A6A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FA48D35B2757DBB80006BF91 /* Constants.swift */,
+				FA48D35F275807810006BF91 /* DatabaseHandler.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FA9AD4502756FC4D00365A6A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD4202756FC3300365A6A /* MainViewController.swift */,
+				FA92604327571D2500F33690 /* UserDetailsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA9AD4512756FC5400365A6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD4522756FC9D00365A6A /* CustomCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA9AD4522756FC9D00365A6A /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD4532756FCA300365A6A /* Xibs */,
+				FA9AD4542756FCBA00365A6A /* StackOverflowUserCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		FA9AD4532756FCA300365A6A /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD4562756FCFC00365A6A /* StackOverflowUserCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		FA9AD45E2757016D00365A6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA9AD45F2757017E00365A6A /* StackOverflowUserModel.swift */,
+				FA9AD461275703D400365A6A /* BadgeCountModel.swift */,
+				FA9AD463275704B300365A6A /* StackOverflowListUserResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA9AD4462756FC3500365A6A /* Build configuration list for PBXNativeTarget "ScanWellApp" */;
 			buildPhases = (
+				2DB789D74A55171F49DDD9DA /* [CP] Check Pods Manifest.lock */,
 				FA9AD4152756FC3300365A6A /* Sources */,
 				FA9AD4162756FC3300365A6A /* Frameworks */,
 				FA9AD4172756FC3300365A6A /* Resources */,
+				13D20CDCF27EDF8A21ECA0A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA9AD4492756FC3500365A6A /* Build configuration list for PBXNativeTarget "ScanWellAppTests" */;
 			buildPhases = (
+				286ABE2D8EEAD28B39526785 /* [CP] Check Pods Manifest.lock */,
 				FA9AD42E2756FC3500365A6A /* Sources */,
 				FA9AD42F2756FC3500365A6A /* Frameworks */,
 				FA9AD4302756FC3500365A6A /* Resources */,
@@ -172,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA9AD44C2756FC3500365A6A /* Build configuration list for PBXNativeTarget "ScanWellAppUITests" */;
 			buildPhases = (
+				FD1A089A666DB0F606CD5D38 /* [CP] Check Pods Manifest.lock */,
 				FA9AD4382756FC3500365A6A /* Sources */,
 				FA9AD4392756FC3500365A6A /* Frameworks */,
 				FA9AD43A2756FC3500365A6A /* Resources */,
+				10060FEB443138CECCA5907E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +351,7 @@
 				FA9AD42C2756FC3500365A6A /* LaunchScreen.storyboard in Resources */,
 				FA9AD4292756FC3500365A6A /* Assets.xcassets in Resources */,
 				FA9AD4242756FC3300365A6A /* Main.storyboard in Resources */,
+				FA9AD4572756FCFC00365A6A /* StackOverflowUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +371,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10060FEB443138CECCA5907E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanWellApp-ScanWellAppUITests/Pods-ScanWellApp-ScanWellAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanWellApp-ScanWellAppUITests/Pods-ScanWellApp-ScanWellAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScanWellApp-ScanWellAppUITests/Pods-ScanWellApp-ScanWellAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D20CDCF27EDF8A21ECA0A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanWellApp/Pods-ScanWellApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScanWellApp/Pods-ScanWellApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScanWellApp/Pods-ScanWellApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		286ABE2D8EEAD28B39526785 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanWellAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB789D74A55171F49DDD9DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanWellApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1A089A666DB0F606CD5D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScanWellApp-ScanWellAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA9AD4152756FC3300365A6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA9AD4212756FC3300365A6A /* ViewController.swift in Sources */,
+				FA9AD464275704B300365A6A /* StackOverflowListUserResponseModel.swift in Sources */,
+				FA9AD4212756FC3300365A6A /* MainViewController.swift in Sources */,
+				FA9AD462275703D400365A6A /* BadgeCountModel.swift in Sources */,
 				FA9AD41D2756FC3300365A6A /* AppDelegate.swift in Sources */,
 				FA9AD4272756FC3300365A6A /* ScanWellApp.xcdatamodeld in Sources */,
-				FA9AD41F2756FC3300365A6A /* SceneDelegate.swift in Sources */,
+				FA48D360275807810006BF91 /* DatabaseHandler.swift in Sources */,
+				FA9AD4552756FCBA00365A6A /* StackOverflowUserCell.swift in Sources */,
+				FA92604427571D2500F33690 /* UserDetailsController.swift in Sources */,
+				FA9AD4602757017E00365A6A /* StackOverflowUserModel.swift in Sources */,
+				FA48D35C2757DBB80006BF91 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +662,7 @@
 		};
 		FA9AD4472756FC3500365A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FBFDC3B7BC83A76DDE2CE5 /* Pods-ScanWellApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,11 +671,13 @@
 				DEVELOPMENT_TEAM = 333SP89MHZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScanWellApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ScanWell by Alex";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +693,7 @@
 		};
 		FA9AD4482756FC3500365A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB524BCE6955BF947876075 /* Pods-ScanWellApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,11 +702,13 @@
 				DEVELOPMENT_TEAM = 333SP89MHZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScanWellApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ScanWell by Alex";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,6 +724,7 @@
 		};
 		FA9AD44A2756FC3500365A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0574DA29FD725381B352CA88 /* Pods-ScanWellAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +750,7 @@
 		};
 		FA9AD44B2756FC3500365A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED9D0C45EF3D9CA1D3C1EDF /* Pods-ScanWellAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +776,7 @@
 		};
 		FA9AD44D2756FC3500365A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D5B49E2D0A3CBFB0A786A3 /* Pods-ScanWellApp-ScanWellAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +800,7 @@
 		};
 		FA9AD44E2756FC3500365A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E29A3394C6132DFAFF51CEB /* Pods-ScanWellApp-ScanWellAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
