@@ -84,7 +84,6 @@ class UserDetailsController: UIViewController {
             timeArray.append("\(days) " + Constants.days)
         }
         
-        //Member for 8 years, 8 months
         let memberSinceAttrString = NSMutableAttributedString(string: "")
         memberSinceAttrString.append(NSAttributedString(string: String.fontAwesomeIcon(name: .birthdayCake),
                                                         attributes: [.font : UIFont.fontAwesome(ofSize: 17, style: .solid)]
@@ -101,24 +100,38 @@ class UserDetailsController: UIViewController {
         
         if let seconds = timeSinceLastSeen.second,
            seconds < 60 {
-            timeSinceString = String.init(format: Constants.lastSeen, "\(seconds) " + Constants.secondsAgo)
+            timeSinceString = String(format: Constants.lastSeen,
+                                     "\(seconds) " + Util.addSIfNeeded(Constants.secondsAgo,
+                                                                       count: seconds))
         } else if let minutes = timeSinceLastSeen.minute,
                   minutes < 60 {
-            timeSinceString = String.init(format: Constants.lastSeen, "\(minutes) " + Constants.minutesAgo)
+            timeSinceString = String(format: Constants.lastSeen,
+                                     "\(minutes) " + Util.addSIfNeeded(Constants.minutesAgo,
+                                                                       count: minutes))
         } else if let hours = timeSinceLastSeen.hour,
                   hours < 24 {
-            timeSinceString = String.init(format: Constants.lastSeen, "\(hours) " + Constants.hoursAgo)
+            timeSinceString = String(format: Constants.lastSeen,
+                                     "\(hours) " + Util.addSIfNeeded(Constants.hoursAgo,
+                                                                     count: hours))
         } else if let days = timeSinceLastSeen.day,
                   days < 7 {
-            timeSinceString = String.init(format: Constants.lastSeen, "\(days) " + Constants.daysAgo)
+            timeSinceString = String(format: Constants.lastSeen,
+                                     "\(days) " + Util.addSIfNeeded(Constants.daysAgo,
+                                                                    count: days))
         } else if let weeks = timeSinceLastSeen.weekOfYear,
                   weeks < 4 {
-            timeSinceString = String.init(format: Constants.lastSeen, "\(weeks) " + Constants.weeksAgo)
+            timeSinceString = String(format: Constants.lastSeen,
+                                     "\(weeks) " + Util.addSIfNeeded(Constants.weeksAgo,
+                                                                     count: weeks))
         } else if let months = timeSinceLastSeen.month,
                   months < 12 {
-            timeSinceString = String.init(format: Constants.lastSeen, "\(months) " + Constants.monthsAgo)
+            timeSinceString = String(format: Constants.lastSeen,
+                                     "\(months) " + Util.addSIfNeeded(Constants.monthsAgo,
+                                                                      count: months))
         } else if let years = timeSinceLastSeen.year {
-            timeSinceString = String.init(format: Constants.lastSeen, "\(years) " + Constants.yearsAgo)
+            timeSinceString = String(format: Constants.lastSeen,
+                                     "\(years) " + Util.addSIfNeeded(Constants.yearsAgo,
+                                                                     count: years))
         }
         
         //Member for 8 years, 8 months

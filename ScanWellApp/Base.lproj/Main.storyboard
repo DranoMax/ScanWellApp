@@ -85,13 +85,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x40-0P-x3d">
-                                                <rect key="frame" x="16" y="248" width="382" height="21"/>
+                                                <rect key="frame" x="16" y="256" width="382" height="21"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Apparently, this user prefers to keep an air of mystery about them..." textAlignment="natural" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3B-4s-AuB">
-                                                <rect key="frame" x="16" y="277" width="382" height="525"/>
+                                                <rect key="frame" x="8" y="281" width="398" height="521"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -100,21 +100,21 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="P3B-4s-AuB" secondAttribute="trailing" constant="16" id="60d-S4-Hea"/>
+                                            <constraint firstAttribute="trailing" secondItem="P3B-4s-AuB" secondAttribute="trailing" constant="8" id="60d-S4-Hea"/>
                                             <constraint firstItem="du3-s2-s5f" firstAttribute="top" secondItem="8SZ-cu-c9e" secondAttribute="bottom" constant="8" id="8gB-gw-a5k"/>
                                             <constraint firstAttribute="trailing" secondItem="8SZ-cu-c9e" secondAttribute="trailing" constant="16" id="A3z-X7-hBD"/>
                                             <constraint firstItem="IhW-gq-Upg" firstAttribute="top" secondItem="du3-s2-s5f" secondAttribute="bottom" constant="8" id="EmU-Zf-f4v"/>
                                             <constraint firstAttribute="trailing" secondItem="tDY-7Q-a8z" secondAttribute="trailing" id="FsL-l8-PBg"/>
                                             <constraint firstAttribute="bottom" secondItem="P3B-4s-AuB" secondAttribute="bottom" constant="16" id="H69-xf-E0W"/>
-                                            <constraint firstItem="P3B-4s-AuB" firstAttribute="top" secondItem="x40-0P-x3d" secondAttribute="bottom" constant="8" id="Hr4-TY-hOz"/>
+                                            <constraint firstItem="P3B-4s-AuB" firstAttribute="top" secondItem="x40-0P-x3d" secondAttribute="bottom" constant="4" id="Hr4-TY-hOz"/>
                                             <constraint firstItem="x40-0P-x3d" firstAttribute="leading" secondItem="1ke-Fi-VbK" secondAttribute="leading" constant="16" id="JrC-Xa-fD6"/>
                                             <constraint firstItem="8SZ-cu-c9e" firstAttribute="top" secondItem="ctV-mP-tlp" secondAttribute="bottom" constant="16" id="KNA-R8-kfB"/>
                                             <constraint firstItem="ctV-mP-tlp" firstAttribute="centerX" secondItem="1ke-Fi-VbK" secondAttribute="centerX" id="Rzh-vF-7iI"/>
                                             <constraint firstItem="du3-s2-s5f" firstAttribute="leading" secondItem="1ke-Fi-VbK" secondAttribute="leading" constant="16" id="SVa-UJ-TqV"/>
                                             <constraint firstItem="tDY-7Q-a8z" firstAttribute="top" secondItem="1ke-Fi-VbK" secondAttribute="top" id="ZO0-Ov-REg"/>
-                                            <constraint firstItem="x40-0P-x3d" firstAttribute="top" secondItem="IhW-gq-Upg" secondAttribute="bottom" constant="16" id="aEz-Tq-ZVk"/>
+                                            <constraint firstItem="x40-0P-x3d" firstAttribute="top" secondItem="IhW-gq-Upg" secondAttribute="bottom" constant="24" id="aEz-Tq-ZVk"/>
                                             <constraint firstItem="IhW-gq-Upg" firstAttribute="leading" secondItem="1ke-Fi-VbK" secondAttribute="leading" constant="16" id="cGP-KL-t7B"/>
-                                            <constraint firstItem="P3B-4s-AuB" firstAttribute="leading" secondItem="1ke-Fi-VbK" secondAttribute="leading" constant="16" id="cpy-wf-oBm"/>
+                                            <constraint firstItem="P3B-4s-AuB" firstAttribute="leading" secondItem="1ke-Fi-VbK" secondAttribute="leading" constant="8" id="cpy-wf-oBm"/>
                                             <constraint firstAttribute="trailing" secondItem="x40-0P-x3d" secondAttribute="trailing" constant="16" id="dXM-Nv-Q0V"/>
                                             <constraint firstAttribute="trailing" secondItem="du3-s2-s5f" secondAttribute="trailing" constant="16" id="eyS-BF-6fj"/>
                                             <constraint firstItem="tDY-7Q-a8z" firstAttribute="leading" secondItem="1ke-Fi-VbK" secondAttribute="leading" id="kBb-PE-y0Q"/>

@@ -106,18 +106,7 @@ class DatabaseHandler: NSObject {
         self.databaseQueue?.inTransaction({ (database, rollback) in
             do {
                 let resultSet: FMResultSet = try database.executeQuery("SELECT * FROM " + Constants.SQL_USER_TABLE, values: [])
-                /**
-                 Constants.SQL_USER_ID + "," +
-                 Constants.SQL_DISPLAY_NAME + "," +
-                 Constants.SQL_STACKOVERFLOW_LINK + "," +
-                 Constants.SQL_PROFILE_IMAGE_URL + "," +
-                 Constants.SQL_REPUTATION_POINTS + "," +
-                 Constants.SQL_GOLD_BADGE_COUNT + "," +
-                 Constants.SQL_SILVER_BADGE_COUNT + "," +
-                 Constants.SQL_BRONZE_BADGE_COUNT + "," +
-                 Constants.SQL_CREATION_TIMESTAMP + "," +
-                 Constants.SQL_LAST_SEEN_TIMESTAMP +
-                 */
+  
                 while resultSet.next() {
                     let userId = Int(resultSet.int(forColumn: Constants.SQL_USER_ID))
                     let reputationPoints = Int(resultSet.int(forColumn: Constants.SQL_REPUTATION_POINTS))

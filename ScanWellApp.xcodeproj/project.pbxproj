@@ -27,6 +27,7 @@
 		FA9AD4602757017E00365A6A /* StackOverflowUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD45F2757017E00365A6A /* StackOverflowUserModel.swift */; };
 		FA9AD462275703D400365A6A /* BadgeCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD461275703D400365A6A /* BadgeCountModel.swift */; };
 		FA9AD464275704B300365A6A /* StackOverflowListUserResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD463275704B300365A6A /* StackOverflowListUserResponseModel.swift */; };
+		FAE8D66C2758598600CB815D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE8D66B2758598600CB815D /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		FA9AD45F2757017E00365A6A /* StackOverflowUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowUserModel.swift; sourceTree = "<group>"; };
 		FA9AD461275703D400365A6A /* BadgeCountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCountModel.swift; sourceTree = "<group>"; };
 		FA9AD463275704B300365A6A /* StackOverflowListUserResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowListUserResponseModel.swift; sourceTree = "<group>"; };
+		FAE8D66B2758598600CB815D /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			children = (
 				FA48D35B2757DBB80006BF91 /* Constants.swift */,
 				FA48D35F275807810006BF91 /* DatabaseHandler.swift */,
+				FAE8D66B2758598600CB815D /* Util.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE8D66C2758598600CB815D /* Util.swift in Sources */,
 				FA9AD464275704B300365A6A /* StackOverflowListUserResponseModel.swift in Sources */,
 				FA9AD4212756FC3300365A6A /* MainViewController.swift in Sources */,
 				FA9AD462275703D400365A6A /* BadgeCountModel.swift in Sources */,
