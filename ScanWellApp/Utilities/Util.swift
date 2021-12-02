@@ -9,7 +9,7 @@ import Foundation
 
 class Util {
     static func addSIfNeeded(_ str: String, count: Int) -> String {
-        if count > 1 {
+        if count != 1 {
             return String(format: str, "s")
         }
         

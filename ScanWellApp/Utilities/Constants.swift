@@ -28,9 +28,9 @@ struct Constants {
     static let weeksAgo = "week%@ ago"
     static let monthsAgo = "month%@ ago"
     static let yearsAgo = "year%@ ago"
-    static let days = "days"
-    static let months = "months"
-    static let years = "years"
+    static let days = "day%@"
+    static let months = "month%@"
+    static let years = "year%@"
     static let stackOverflowUsers = "Stack Overflow Users"
     static let userProfileCacheKey = "user_profile_image_%@"
     

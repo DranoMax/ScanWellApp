@@ -71,17 +71,20 @@ class UserDetailsController: UIViewController {
         
         if let years = timeSinceCreation.year,
            years > 0 {
-            timeArray.append("\(years) " + Constants.years)
+            timeArray.append("\(years) " + Util.addSIfNeeded(Constants.years,
+                                                             count: years))
         }
         
         if let months = timeSinceCreation.month,
            months > 0 {
-            timeArray.append("\(months) " + Constants.months)
+            timeArray.append("\(months) " + Util.addSIfNeeded(Constants.months,
+                                                              count: months))
         }
         
         if let days = timeSinceCreation.day,
            days > 0 {
-            timeArray.append("\(days) " + Constants.days)
+            timeArray.append("\(days) " + Util.addSIfNeeded(Constants.days,
+                                                            count: days))
         }
         
         let memberSinceAttrString = NSMutableAttributedString(string: "")
